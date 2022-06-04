@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C98646284AF442001AD876 /* marmorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C98645284AF442001AD876 /* marmorApp.swift */; };
+		09C98648284AF442001AD876 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C98647284AF442001AD876 /* ContentView.swift */; };
+		09C9864A284AF446001AD876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C98649284AF446001AD876 /* Assets.xcassets */; };
+		09C9864D284AF446001AD876 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C9864C284AF446001AD876 /* Preview Assets.xcassets */; };
+		09C98657284AF446001AD876 /* marmorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C98656284AF446001AD876 /* marmorTests.swift */; };
+		09C98661284AF446001AD876 /* marmorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C98660284AF446001AD876 /* marmorUITests.swift */; };
+		09C98663284AF446001AD876 /* marmorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C98662284AF446001AD876 /* marmorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09C98653284AF446001AD876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09C9863A284AF442001AD876 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09C98641284AF442001AD876;
+			remoteInfo = marmor;
+		};
+		09C9865D284AF446001AD876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09C9863A284AF442001AD876 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09C98641284AF442001AD876;
+			remoteInfo = marmor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09C98642284AF442001AD876 /* marmor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marmor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C98645284AF442001AD876 /* marmorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marmorApp.swift; sourceTree = "<group>"; };
+		09C98647284AF442001AD876 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		09C98649284AF446001AD876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09C9864C284AF446001AD876 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09C98652284AF446001AD876 /* marmorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = marmorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C98656284AF446001AD876 /* marmorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marmorTests.swift; sourceTree = "<group>"; };
+		09C9865C284AF446001AD876 /* marmorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = marmorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C98660284AF446001AD876 /* marmorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marmorUITests.swift; sourceTree = "<group>"; };
+		09C98662284AF446001AD876 /* marmorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marmorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09C9863F284AF442001AD876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C9864F284AF446001AD876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C98659284AF446001AD876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C98639284AF442001AD876 = {
+			isa = PBXGroup;
+			children = (
+				09C98644284AF442001AD876 /* marmor */,
+				09C98655284AF446001AD876 /* marmorTests */,
+				09C9865F284AF446001AD876 /* marmorUITests */,
+				09C98643284AF442001AD876 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09C98643284AF442001AD876 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09C98642284AF442001AD876 /* marmor.app */,
+				09C98652284AF446001AD876 /* marmorTests.xctest */,
+				09C9865C284AF446001AD876 /* marmorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09C98644284AF442001AD876 /* marmor */ = {
+			isa = PBXGroup;
+			children = (
+				09C98645284AF442001AD876 /* marmorApp.swift */,
+				09C98647284AF442001AD876 /* ContentView.swift */,
+				09C98649284AF446001AD876 /* Assets.xcassets */,
+				09C9864B284AF446001AD876 /* Preview Content */,
+			);
+			path = marmor;
+			sourceTree = "<group>";
+		};
+		09C9864B284AF446001AD876 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				09C9864C284AF446001AD876 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09C98655284AF446001AD876 /* marmorTests */ = {
+			isa = PBXGroup;
+			children = (
+				09C98656284AF446001AD876 /* marmorTests.swift */,
+			);
+			path = marmorTests;
+			sourceTree = "<group>";
+		};
+		09C9865F284AF446001AD876 /* marmorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09C98660284AF446001AD876 /* marmorUITests.swift */,
+				09C98662284AF446001AD876 /* marmorUITestsLaunchTests.swift */,
+			);
+			path = marmorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09C98641284AF442001AD876 /* marmor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C98666284AF446001AD876 /* Build configuration list for PBXNativeTarget "marmor" */;
+			buildPhases = (
+				09C9863E284AF442001AD876 /* Sources */,
+				09C9863F284AF442001AD876 /* Frameworks */,
+				09C98640284AF442001AD876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = marmor;
+			productName = marmor;
+			productReference = 09C98642284AF442001AD876 /* marmor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09C98651284AF446001AD876 /* marmorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C98669284AF446001AD876 /* Build configuration list for PBXNativeTarget "marmorTests" */;
+			buildPhases = (
+				09C9864E284AF446001AD876 /* Sources */,
+				09C9864F284AF446001AD876 /* Frameworks */,
+				09C98650284AF446001AD876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09C98654284AF446001AD876 /* PBXTargetDependency */,
+			);
+			name = marmorTests;
+			productName = marmorTests;
+			productReference = 09C98652284AF446001AD876 /* marmorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09C9865B284AF446001AD876 /* marmorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C9866C284AF446001AD876 /* Build configuration list for PBXNativeTarget "marmorUITests" */;
+			buildPhases = (
+				09C98658284AF446001AD876 /* Sources */,
+				09C98659284AF446001AD876 /* Frameworks */,
+				09C9865A284AF446001AD876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09C9865E284AF446001AD876 /* PBXTargetDependency */,
+			);
+			name = marmorUITests;
+			productName = marmorUITests;
+			productReference = 09C9865C284AF446001AD876 /* marmorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09C9863A284AF442001AD876 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					09C98641284AF442001AD876 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					09C98651284AF446001AD876 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 09C98641284AF442001AD876;
+					};
+					09C9865B284AF446001AD876 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 09C98641284AF442001AD876;
+					};
+				};
+			};
+			buildConfigurationList = 09C9863D284AF442001AD876 /* Build configuration list for PBXProject "marmor" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09C98639284AF442001AD876;
+			productRefGroup = 09C98643284AF442001AD876 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09C98641284AF442001AD876 /* marmor */,
+				09C98651284AF446001AD876 /* marmorTests */,
+				09C9865B284AF446001AD876 /* marmorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09C98640284AF442001AD876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C9864D284AF446001AD876 /* Preview Assets.xcassets in Resources */,
+				09C9864A284AF446001AD876 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C98650284AF446001AD876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C9865A284AF446001AD876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09C9863E284AF442001AD876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C98648284AF442001AD876 /* ContentView.swift in Sources */,
+				09C98646284AF442001AD876 /* marmorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C9864E284AF446001AD876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C98657284AF446001AD876 /* marmorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C98658284AF446001AD876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C98663284AF446001AD876 /* marmorUITestsLaunchTests.swift in Sources */,
+				09C98661284AF446001AD876 /* marmorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09C98654284AF446001AD876 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09C98641284AF442001AD876 /* marmor */;
+			targetProxy = 09C98653284AF446001AD876 /* PBXContainerItemProxy */;
+		};
+		09C9865E284AF446001AD876 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09C98641284AF442001AD876 /* marmor */;
+			targetProxy = 09C9865D284AF446001AD876 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09C98664284AF446001AD876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09C98665284AF446001AD876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09C98667284AF446001AD876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"marmor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idk.marmor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09C98668284AF446001AD876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"marmor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idk.marmor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		09C9866A284AF446001AD876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idk.marmorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/marmor.app/marmor";
+			};
+			name = Debug;
+		};
+		09C9866B284AF446001AD876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idk.marmorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/marmor.app/marmor";
+			};
+			name = Release;
+		};
+		09C9866D284AF446001AD876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idk.marmorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = marmor;
+			};
+			name = Debug;
+		};
+		09C9866E284AF446001AD876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idk.marmorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = marmor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09C9863D284AF442001AD876 /* Build configuration list for PBXProject "marmor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C98664284AF446001AD876 /* Debug */,
+				09C98665284AF446001AD876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09C98666284AF446001AD876 /* Build configuration list for PBXNativeTarget "marmor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C98667284AF446001AD876 /* Debug */,
+				09C98668284AF446001AD876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09C98669284AF446001AD876 /* Build configuration list for PBXNativeTarget "marmorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C9866A284AF446001AD876 /* Debug */,
+				09C9866B284AF446001AD876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09C9866C284AF446001AD876 /* Build configuration list for PBXNativeTarget "marmorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C9866D284AF446001AD876 /* Debug */,
+				09C9866E284AF446001AD876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09C9863A284AF442001AD876 /* Project object */;
+}
