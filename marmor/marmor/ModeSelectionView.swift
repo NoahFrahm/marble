@@ -31,9 +31,9 @@ struct ModeSelectionView: View {
 //                  doesnt work for displaying live previews of both
 //                  so we must make special modifications to cameramodel
 //                  to support multiple devices
-                    CameraNoBackendView(camera: CameraModel(.video, .back))
-                    CameraNoBackendView(camera: CameraModel(.video, .front))
-//                    CameraView(camera: CameraModel(.video, .back))
+//                    CameraNoBackendView(camera: CameraModel(.video, .back))
+//                    CameraNoBackendView(camera: CameraModel(.video, .front))
+                    MultiCamView(camera: MultiCameraModel())
 //                    CameraView(camera: CameraModel(.video, .front))
                 }
             }

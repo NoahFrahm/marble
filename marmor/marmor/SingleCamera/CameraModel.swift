@@ -132,9 +132,9 @@ class CameraModel: NSObject, ObservableObject, AVCapturePhotoCaptureDelegate {
     func photoOutput(_ output: AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVCapturePhoto, error: Error?) {
         if error != nil {return}
         print("pic taken")
-        
+
         guard let imageData = photo.fileDataRepresentation() else {return}
-        
+
         self.picData = imageData
     }
     

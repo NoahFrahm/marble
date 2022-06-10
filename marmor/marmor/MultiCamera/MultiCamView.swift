@@ -1,23 +1,23 @@
 //
-//  CameraView.swift
+//  MultiCamView.swift
 //  marmor
 //
-//  Created by Noah Frahm on 6/7/22.
+//  Created by Noah Frahm on 6/9/22.
 //
 
 import SwiftUI
 import AVFoundation
 
-struct CameraView: View {
+struct MultiCamView: View {
     
-    @StateObject var camera: CameraModel
+    @StateObject var camera: MultiCameraModel
     
     var body: some View{
         ZStack{
             Color.black
                 .ignoresSafeArea(.all, edges: .all)
-            CameraPreview(camera: camera)
-                .ignoresSafeArea(.all, edges: .all)
+//            MultiCameraPreview(camera: camera)
+//                .ignoresSafeArea(.all, edges: .all)
             
             VStack{
                 if camera.isTaken{
@@ -71,33 +71,35 @@ struct CameraView: View {
     }
 }
 
-struct CameraView_Previews: PreviewProvider {
+struct MultiCamView_Previews: PreviewProvider {
     static var previews: some View {
-        CameraView(camera: CameraModel(.video, .back))
+//        MultiCamView()
+        Text("multi")
     }
 }
 
-struct CameraPreview: UIViewRepresentable {
-    
-    @ObservedObject var camera: CameraModel
-    func makeUIView(context: Context) -> some UIView {
-        let view = UIView(frame: UIScreen.main.bounds)
-        
-        camera.preview = AVCaptureVideoPreviewLayer(session: camera.session)
-        camera.preview.frame = view.frame
-        
-        //my own properties?
-        camera.preview.videoGravity = .resizeAspectFill
-        view.layer.addSublayer(camera.preview)
-        
-        //start session
-        camera.session.startRunning()
-        
-        return view
-    }
-    
-    func updateUIView(_ uiViewType: UIViewType, context: Context) {
-        
-    }
-    
-}
+//struct MultiCameraPreview: UIViewRepresentable {
+//
+//    @ObservedObject var camera: MultiCameraModel
+//    func makeUIView(context: Context) -> some UIView {
+//        let view = UIView(frame: UIScreen.main.bounds)
+//
+//        camera.preview = AVCaptureMultiCamSession(session: camera.dualVideoSession)
+////        AVCaptureVideoPreviewLayer(session: camera.dualVideoSession)
+//        camera.preview.frame = view.frame
+//
+//        //my own properties?
+//        camera.preview.videoGravity = .resizeAspectFill
+//        view.layer.addSublayer(camera.preview)
+//
+//        //start session
+//        camera.dualVideoSession.startRunning()
+//
+//        return view
+//    }
+//
+//    func updateUIView(_ uiViewType: UIViewType, context: Context) {
+//
+//    }
+//
+//}

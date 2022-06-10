@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		09399F7728502CDB000A42F1 /* CameraNoBackendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09399F7628502CDB000A42F1 /* CameraNoBackendView.swift */; };
 		09399F7B28503606000A42F1 /* ModeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09399F7A28503606000A42F1 /* ModeSelectionView.swift */; };
+		094BE9262852BB820060D5B4 /* MultiCameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094BE9252852BB820060D5B4 /* MultiCameraModel.swift */; };
+		094BE9282853097E0060D5B4 /* MultiCamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094BE9272853097E0060D5B4 /* MultiCamView.swift */; };
 		09BF03F6284FFAB700782EB0 /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BF03F5284FFAB700782EB0 /* CameraModel.swift */; };
 		09BF03F8284FFAC300782EB0 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BF03F7284FFAC300782EB0 /* CameraView.swift */; };
 		09C98646284AF442001AD876 /* marmorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C98645284AF442001AD876 /* marmorApp.swift */; };
@@ -40,6 +42,8 @@
 /* Begin PBXFileReference section */
 		09399F7628502CDB000A42F1 /* CameraNoBackendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraNoBackendView.swift; sourceTree = "<group>"; };
 		09399F7A28503606000A42F1 /* ModeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSelectionView.swift; sourceTree = "<group>"; };
+		094BE9252852BB820060D5B4 /* MultiCameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiCameraModel.swift; sourceTree = "<group>"; };
+		094BE9272853097E0060D5B4 /* MultiCamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiCamView.swift; sourceTree = "<group>"; };
 		09BF03F5284FFAB700782EB0 /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
 		09BF03F7284FFAC300782EB0 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		09C98642284AF442001AD876 /* marmor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marmor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +93,15 @@
 			path = SingleCamera;
 			sourceTree = "<group>";
 		};
+		094BE9242852BB650060D5B4 /* MultiCamera */ = {
+			isa = PBXGroup;
+			children = (
+				094BE9252852BB820060D5B4 /* MultiCameraModel.swift */,
+				094BE9272853097E0060D5B4 /* MultiCamView.swift */,
+			);
+			path = MultiCamera;
+			sourceTree = "<group>";
+		};
 		09C98639284AF442001AD876 = {
 			isa = PBXGroup;
 			children = (
@@ -112,8 +125,9 @@
 		09C98644284AF442001AD876 /* marmor */ = {
 			isa = PBXGroup;
 			children = (
-				09399F7A28503606000A42F1 /* ModeSelectionView.swift */,
+				094BE9242852BB650060D5B4 /* MultiCamera */,
 				09399F7C2850836F000A42F1 /* SingleCamera */,
+				09399F7A28503606000A42F1 /* ModeSelectionView.swift */,
 				09C98645284AF442001AD876 /* marmorApp.swift */,
 				09C98647284AF442001AD876 /* ContentView.swift */,
 				09C98649284AF446001AD876 /* Assets.xcassets */,
@@ -281,6 +295,8 @@
 				09399F7728502CDB000A42F1 /* CameraNoBackendView.swift in Sources */,
 				09C98646284AF442001AD876 /* marmorApp.swift in Sources */,
 				09399F7B28503606000A42F1 /* ModeSelectionView.swift in Sources */,
+				094BE9282853097E0060D5B4 /* MultiCamView.swift in Sources */,
+				094BE9262852BB820060D5B4 /* MultiCameraModel.swift in Sources */,
 				09BF03F6284FFAB700782EB0 /* CameraModel.swift in Sources */,
 				09BF03F8284FFAC300782EB0 /* CameraView.swift in Sources */,
 			);
